@@ -1,0 +1,123 @@
+body {
+    font-family: 'roboto', sans-serif;
+    color: #212121;
+}
+.webstudio {
+    color: #2196F3;
+    font-weight: 700; 
+    font-size: 26px;
+    line-height: 1.19;
+    font-family: 'raleway'
+}
+.contacts {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.link {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.link:hover {
+    color: #2196F3;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.button {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.button:hover {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;    
+cursor: pointer;
+color: white;
+background-color: #2196F3;
+}
+.contacts {
+    color: #212121;
+}
+.contacts:hover {
+    color: #2196F3;
+}
+.list-image {
+    list-style: none;
+}
+.image-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.image-subtitle { 
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+.address {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.address:hover {
+color: #2196F3;
+}
+.contacts-2 {
+    color: #FFFFFF;
+    opacity: 60%;
+}
+.contacts-2:hover {
+    color: #2196F3;
+}
+.foot {
+    background-color: #2F303A;
+}
+.soluciones{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+.section {
+    background-color: #2F303A;
+}
+.buttonh {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    cursor: pointer;
+}
+.buttonh:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+.ptitle {
+    list-style: none;
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.ptext {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;   
+}
+.indeximage {
+    list-style: none;
+}
+.teamsection {
+    background-color: #F5F4FA;
+}
