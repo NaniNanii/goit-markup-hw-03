@@ -54,105 +54,30 @@ body {
   line-height: 1.14;
 }
 
-.button1 {
-  color: #212121;
-  width: 73px;
-  height: 38px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  background-color: #2196F3;
-  margin-right: 8px;
-}
-
-.button1:hover {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  cursor: pointer;
-  color: white;
-  background-color: #757575;
-}
-
-.button2 {
+.button {
   color: #212121;
   font-weight: 500;
   font-size: 16px;
-  width: 128px;
-  height: 38px;
   line-height: 1.62;
   margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 24px;
 }
 
-.button2:hover {
+.button:hover, .button:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
   color: white;
   background-color: #2196F3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.button3 {
-  color: #212121;
-  font-weight: 500;
-  font-size: 16px;
-  width: 145px;
-  height: 38px;
-  line-height: 1.62;
-  margin-right: 8px;
-}
-
-.button3:hover {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  cursor: pointer;
-  color: white;
-  background-color: #2196F3;
-}
-
-.button4 {
-  color: #212121;
-  font-weight: 500;
-  font-size: 16px;
-  width: 103px;
-  height: 38px;
-  line-height: 1.62;
-  margin-right: 8px;
-}
-
-.button4:hover {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  cursor: pointer;
-  color: white;
-  background-color: #2196F3;
-}
-
-.button5 {
-  color: #212121;
-  font-weight: 500;
-  font-size: 16px;
-  width: 130px;
-  height: 38px;
-  line-height: 1.62;
-  margin-right: 8px;
-}
-
-.button5:hover {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  cursor: pointer;
-  color: white;
-  background-color: #2196F3;
-}
 
 .solutions-greybox {
   background-color: #2f303a;
-  width: 1600px;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -228,7 +153,6 @@ body {
 
 .foot {
   background-color: #2F303A;
-  width: 1600px;
   height: 252px;
 }
 
@@ -316,7 +240,6 @@ body {
 .teamsection {
   background-color: #F5F4FA;
   margin-top: 94px;
-  width: 1600px;
   height: 648px;
 
 }
@@ -343,11 +266,12 @@ body {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .shadow {
   width: 270px;
-  height: 368px;
+  height: 428px;
   left: 208px;
   top: 1716px;
   text-align: center;
@@ -358,16 +282,24 @@ body {
 }
 
 .shadow-2 {
-
-  background: #FFFFFF;
+  background: #FFFFFF;  flex-basis: calc((100% - 60px) / 3);
   border: 1px solid #EEEEEE;
+}
+
+.shadow-2:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  margin-right: 30px;
 }
 
 .row {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 30px;
+  gap: 27px;
+  padding-bottom: 82px;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  }
