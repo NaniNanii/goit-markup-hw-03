@@ -134,6 +134,10 @@ body {
   text-decoration: none;
 }
 
+.address-box{
+  width: 231px;
+}
+
 .address:hover {
   color: #2196F3;
 }
@@ -151,11 +155,6 @@ body {
 .foot {
   background-color: #2F303A;
   height: 252px;
-}
-
-.footer-info {
-  top: 2218px;
-  left: 215px;
 }
 
 .soluciones {
@@ -303,4 +302,20 @@ ul {
 
   .footer-opacity {
     opacity: 60%;
+  }
+
+  .container-address {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    display: flex;
+    justify-content: center;
+    padding-left: 215px;
+    padding-right: 878px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .footer-contacts-width {
+    width: 213px;
   }
